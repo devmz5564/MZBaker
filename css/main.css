@@ -1,0 +1,768 @@
+/* import google font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body{
+  overflow-x: hidden;
+}
+
+.head{
+    background-color: #CF2521;
+    height: 150px;
+}
+/* start upper navbar */
+
+.upper{
+    height: 40%;
+    border-bottom-style: dotted;
+    border-bottom-color: white;
+}
+ /* start upper navbar icon */ 
+
+.so{
+    width: 170px;
+    float: right;
+    overflow: none;
+}
+.face1{
+    width: 54px;
+}
+.tw{
+    width: 44px; 
+    border-radius: 50%;
+}
+.Gmail{
+    width: 44px; 
+    border-radius: 50%;
+}
+.ph{
+    margin-top: 7px;
+}
+.numb{
+
+    margin-top: -35px;
+    width: 120px;
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+}
+ /* end upper navbar */ 
+ /* start navbar */ 
+.navbar{ 
+    height: 60%;
+    background-color:#CF2521;
+    border:none;
+    margin-top: -50px;
+ /* nav bar body */ 
+    
+}
+#n{
+    margin-right:-100px;
+    margin-top: -15px;   
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:white;
+    font-size: 20px;
+    font-weight: normal;  
+}
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover, 
+ .navbar-inverse .navbar-nav > .active > a:focus{
+    background-color: #CF2521
+ }
+ .navbar-inverse .navbar-nav > li > a:hover {
+    text-decoration: underline;
+}
+ #lo{
+     width: 190px;
+     margin-top: -80px;
+     margin-left: -100px;
+ /*  navbar logo*/     
+ }
+ /* endr navbar */ 
+ /* start our product */ 
+ .product{
+     height: 150px;
+     background-color: #231F20;
+     width: 100%;
+     margin-top: -20px;
+ /* product body */ 
+     
+ }
+ .pro{
+     background-color: #231F20;
+     height: 148px;
+     border-color: white;
+     border-left-style: dashed;
+     border-width: 2px;
+      /*  item in product navbar */ 
+
+ }
+ .ca{
+     margin-top: 0;
+     font-family:Hind;
+     color: white;
+     font-style: italic;
+ }
+ .se , .se2{
+     width:130px;
+     margin-top: 20px;
+     border-radius: 50%;  
+ }
+ .se2{
+  width:150px;
+  /*  pic in product navbar */ 
+ }
+/*  drop menu in product navbar */ 
+.cake, .c5, .c66, .c67{
+  width: 570px;
+  height: 460px;
+  background-color: white;
+  margin-top: 2px;
+  border-style: double;
+  border-width: 20px;
+  border-radius: 10px;
+  display: none;
+  z-index: 2;
+  position: absolute;
+  
+}
+.c5{
+  margin-left: 300px;
+ 
+ 
+}
+.c66{
+  margin-left: 600px;
+}
+.c67{
+  margin-left: 600px;
+}
+/*  pic in nav dropmenu */ 
+.one , .two, .three, .Four{
+  width: 50%;
+  height: 50%;
+  margin-top: 3px;
+  border-right-style: dashed;
+  border-color:#231F20;
+  
+}
+.two{
+  margin-top: -10px;
+}
+.three{
+  margin-left: 250px;
+  margin-top: -410px;
+  border:none;
+}
+.Four{
+  margin-left: 250px;
+  border: none;
+}
+.cake1 , .cake2, .pink {
+  width: 200px;
+  border-radius: 10px; 
+}
+.cake1{
+  margin-left: 10px;
+}
+.flower{
+  width: 220px;
+}
+/*  h1 h2 p in product navbar */ 
+#w{ 
+  margin-top: 3px;
+  font-family:Hind;
+  font-style: italic;
+}
+#prise{
+margin-top: -15px;
+font-family:Hind;
+font-style: italic;
+}
+.co{
+  width: 20px;
+  height: 34px;
+  float: right;
+ overflow: hidden;
+}
+.xx{
+  width: 100%;
+  height: 600px;
+}
+.good ,.good2 ,.good3{
+  width: 150px;
+  padding-top: 5px;
+}
+.good2{
+  margin-left: 170px;
+  margin-top: -150px;
+}
+.good3{
+  margin-left: 350px;
+  margin-top: -150px;
+}
+.we{
+  margin-top: -850px;
+  z-index: 1;
+  position: absolute;
+  border-radius: 20px;
+  width: 250px;
+  /*  end product navbar */ 
+}
+/*  boot strap slider */ 
+.carousel-caption {
+  bottom:400px;
+  font-family:Hind;
+  font-style: italic;
+  font-size: 10px;
+  color: black;
+  height:170px ;
+  margin-left: 500px;
+ 
+}
+.carousel-inner{
+ height: 700px; 
+}
+.tm{
+  height: 300px;
+  width: 100%;
+  background-color: red;
+  /*  end slider */
+}
+ /*  start about */
+.about{
+  height: 300px;
+  width: 100%;
+}
+.tes{
+  width: 250px;
+  border: none;
+}
+.ch2,.ch22,.ch23{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 47px;
+  margin-left: 10px;
+}
+.hide1, .hide12,.hide13{
+  width: 200px;
+  height: 200px;
+  background-color: #231F20;
+  margin-left: 30px;
+  margin-top: -10px;
+  border-radius: 10px;
+  display: none;
+}
+.f1{
+  color: white;
+  padding-top: 10px;
+  font-size: 18px;
+  font-family:Hind;
+  font-style: italic;
+}
+.ch22{
+  margin-top: 45px;
+}
+.font1, .font12, .star1{
+  float: left;
+  margin-left: 5px;
+  color:white;
+}
+.font12{
+  margin-left:50px;
+}
+.star1{
+  margin-left:60px;
+  /*  end about */
+}
+/*  our team slider */
+.ourteam{
+  width: 100%;
+  height: 350px;
+  background:url('../img/team.jpg') no-repeat  center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+ .team {background:rgba(2,2,2,0.8);color:#FFF;height: 350px;}
+/* Start Testimonials Section */
+
+.ourteam span {font-size:18px;
+  font-weight:bold;
+  color: red;
+}
+
+.ourteam .h1 {margin-bottom:20px;
+  color: white;
+  font-size: 30px;
+  font-family:Hind;
+  font-style: italic;
+}
+
+.ourteam .lead {line-height:2em;
+  margin-bottom:10px;
+  color: white;
+  font-size: 18px;
+  font-family:Hind;
+  font-style: italic;
+}
+
+.ourteam .carousel-inner {min-height:160px}
+
+.ourteam .carousel-indicators {
+    position:absolute;
+    width:100%;
+    margin-left:-550px;
+    padding-top:20px;
+  margin-bottom: 430px;
+    
+}
+
+.ourteam .carousel-indicators li {
+    text-indent:0;
+    width:80px;
+    height:80px;
+    opacity:0.4;
+    border: 3px solid #FFF;
+    border-radius:50%;
+    overflow:hidden;
+    
+}
+
+.ourteam .carousel-indicators li.active {
+    width:80px;
+    height:80px;
+    opacity:1;
+    background:none
+}
+
+.ourteam.carousel-indicators li img {max-width:100%}
+/* end our team slider */
+/* start keep in tuch */
+.tuch{
+  width: 100%;
+  height: 250px;
+}
+.tuch h1 , p{
+  color: black;
+  font-size: 40px;
+  font-family:Hind;
+  font-style: italic;
+  text-align: center;
+}
+.tuch p{
+  font-size: 25px;
+}
+.tuch .form-control {
+  border-radius:20;
+  width:300px;
+  margin-left: 400px;
+}
+.tuch button {border-radius:0;
+  margin-left: -5px;
+  /* end keep in tuch */
+}
+/* start our servicse */
+.team2 {background:rgba(2,2,2,0.8);color:#FFF;height: 490px;}
+.servise{
+  width: 100%;
+  height: 490px;
+  background:url('../img/team.jpg') no-repeat   fixed;
+  background-size: cover;
+}
+.more{
+  background-color: white;
+  height: 300px;
+  width: 200px;
+  margin-left: 125px;
+  margin-top: 170px;
+}
+#m{
+ background-color: white;
+ margin-left: -80px;
+ position: absolute;
+}
+#m2{
+  background-color: white;
+  position: absolute;
+  margin-left: 330px;
+}
+
+.a2 ,.a3,.a4{
+  position: relative;
+  background: #00aabb;
+  border-radius: .4em;
+  height: 60px;
+  width: 200px;
+ margin-left: -15px;
+ margin-top: -60px;
+}
+.a3{
+  background-color: green;
+}
+.a2{
+  background-color: #CF2521;
+}
+/* this for shape up to div */
+.a2:after,.a3:after,.a4:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 26px solid transparent;
+  border-top-color: #00aabb;
+  border-bottom: 0;
+  margin-left: -26px;
+  margin-bottom: -26px;
+}
+.a3:after{
+  border: 36px solid transparent;
+  border-top-color: green;
+  border-bottom: 0;
+}
+.a2:after{
+  border: 36px solid transparent;
+  border-top-color: #CF2521;
+  border-bottom: 0;
+}
+.me{
+  margin-top: 250px;
+  width: 170px;
+  font-size: 15px;
+}
+.det{
+  margin-top: 0;
+  font-size: 20px;
+  margin-left: 10px;
+  padding-top: 10px;
+
+}
+.sp{
+  margin-left: 70px; 
+}
+.sp1{
+  margin-left: 90px; 
+}
+.cal1{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  margin-top: 30px;
+  color: red;
+  margin-left: 30px;
+  font-family:Hind;
+  font-style: italic;
+  font-size: 19px;
+}
+#c1{
+color: green;
+}
+#c2{
+ color: rgba(30, 194, 221, 0.66)
+}
+/* start on line resrvation */
+.ress{
+margin-left: 800px;
+position: absolute;
+height: 370px;
+width: 400px;
+margin-top: -370px;
+
+}
+#datetimepicker1{
+ color: black;
+  margin-top: 10px;
+ width: 330px;
+ margin-left: 10px;
+}
+.me1{
+  margin-top: 120px;
+  position: absolute;
+  width: 330px;
+  margin-left: -330px;
+
+}
+.t{
+  margin-left: 20px;
+  margin-top: 19px;
+  padding-left: 100px;
+  
+}
+.h2{
+  margin-top: -50px;
+  font-family:Hind;
+  font-style: italic;
+  font-size: 40px;
+  text-align: center;
+}
+.h22{
+  margin-top: -50px;
+  margin-left: -730px;
+
+  position: absolute;
+  font-family:Hind;
+  font-style: italic;
+  font-size: 40px;
+  text-align: center;
+  /* end our servicse */
+}
+/* start our google map */
+.loc{
+  height: 400px;
+  width:100%;
+ 
+}
+#loction{
+  width: 390px;
+  margin-top: 30px;
+  height: 50px;
+ color: #000;
+ text-align: center;
+ margin-left: 500px;
+ font-family:Hind;
+ font-style: italic;
+ font-size: 40px;
+ 
+}
+#map{
+  height: 300px;
+  width:100%;
+  float: left;
+  margin-top: -5px;
+  margin-left: 10px;
+  /* end our google map */
+}
+/* start our contact */
+.contcat{
+  background:url('../img/cont.jpg') no-repeat  fixed;
+  height: 490px;
+  background-size: cover;
+  margin-top: -25px;
+}
+.mobile,.tele,.add,.mes{
+  width: 25%;
+  height: 100px;
+ 
+}
+.team3 {background:rgba(2,2,2,0.8);color:#FFF;height: 490px;}
+.mobile h2{
+  margin-left: 40px;
+  font-family:Hind;
+  font-style: italic;
+  color: white;
+  font-size: 45px;
+}
+.ph1{
+  margin-left: 60px;
+  padding-top: 20px;
+
+}
+
+.te{
+  margin-top: -40px;
+  font-size: 25px;
+  margin-left:40px;
+  font-family:Hind;
+  font-style: italic;
+  color: white;
+}
+.tele h2{
+margin-left: 60px;
+font-family:Hind;
+font-style: italic;
+color: white;
+font-size: 45px;
+}
+.tele h3{
+  margin-top: -10px;
+  margin-left: 70px;
+  font-size: 20px;
+}
+.mf{
+  width: 400px;
+  margin-left: -30px;
+  font-family:Hind;
+  font-style: italic;
+  color: white;
+}
+.fac{
+  margin-top: 20px;
+}
+.s{
+  margin-left: 150px;
+  
+  width: 170px;
+}
+.s h2{
+  font-family:Hind;
+  font-style: italic;
+  color: white;
+  font-size: 45px;
+  margin-left: 20px;
+}
+.s face1,.tw,.gmail{
+  margin-left: -10px;
+}
+/* start our on line message */
+.message{
+  width: 200px;
+  height: 250px;
+  margin-left: 50px;
+}
+.message h2{
+  font-family:Hind;
+  font-style: italic;
+  color: white;
+  font-size: 34px;
+}
+.form2 .form-control{
+ width: 250px;
+ margin-left: -20px;
+
+}
+.t2{
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+#comment{
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+.me2{
+  margin-top: 10px;
+  width: 210px;
+ /* end our contact */ 
+}
+.copy{
+  background-color: red;
+}
+.p1{
+ float: left;
+  font-size: 25px;
+}
+.p2{
+  float: right;
+   font-size: 25px;
+ }
+ .p3{
+  margin-left: 500px;
+   
+   font-size: 25px;
+   position: absolute;
+ }
+
+ #side22{
+  width: 70px;
+  height: 200px;
+  z-index: 9999;
+  position: fixed;
+ margin-left: 1260px;
+ margin-top: 300px;
+}
+#si{
+  list-style:none;
+  margin-left: -10px;
+  
+}
+#si li{
+padding-top: 10px;  
+}
+
+/* Pulse hover in navbar */
+@-webkit-keyframes face1 {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes face1 {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.face1:hover,  .face1:focus,  .face1:active {
+  -webkit-animation-name: face1;
+  animation-name: face1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes tw {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes tw {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.tw:hover,  .tw:focus,  .tw:active {
+  -webkit-animation-name: face1;
+  animation-name: face1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes #a {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes #a {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform:scale(0.9);
+  }
+}
+#a:hover,  #a:hover,  #a:active {
+  -webkit-animation-name: face1;
+  animation-name: face1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+
+
